@@ -1,0 +1,591 @@
+body {
+    background-image:-webkit-linear-gradient(70deg,rgba(85, 159, 250, 0.918),rgba(241, 55, 111, 0.842));
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+li {
+    margin-top: 12px;
+    float: right;
+}
+
+li a {
+    display: block;
+    cursor: grabbing;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(6, 31, 65);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+li a:hover {
+     background-color: rgb(216, 216, 231);
+     border-radius: 18px;
+}
+
+.logo img {
+   float: left;
+   width: 220px;
+   height: 100px;
+   margin: 6px;
+}
+
+.design img {
+    width: 650px;
+    height: 490px;
+    margin-left: 328px;
+    margin-top: 44px;
+}
+
+.title h1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.title p {
+    position: absolute;
+    top: 46%;
+    left: 21%;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+    position: absolute;
+    color: rgb(3, 20, 43);
+    top: 55%;
+    left: 60%;
+    right: 20%;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 14px;
+    font-family: candara;
+    position: absolute;
+    color: rgb(6, 31, 65);
+    top: 64%;
+    left: 60%;
+    right: 20%;
+    text-align: center;
+}
+
+
+.about h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+
+}
+
+.about img {
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    left: 100px;
+    border-style: dotted; 
+    border-color: rgb(231, 66, 157);
+    border-width: 5px;
+    padding: 2px;
+}
+
+
+.about p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(3, 20, 43);
+    font-family: cursive;
+    font-style:italic;
+    
+}
+
+.about h5 {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(3, 20, 43);
+    font-family: cursive;
+}
+
+.about h6 {
+    font-size: 17px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.about hr {
+    height: 2px;
+    background-color: rgb(233, 233, 243);
+    border: 0;
+}
+
+iframe {
+    width: 750px;
+    height: 400px;
+    position: center;
+    background-color: rgb(114, 168, 250);
+    border-style: mixed; 
+    border-color: rgb(6, 31, 65);
+    border-width: 3px;
+    padding: 4px;
+}
+
+.about h3 {
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family: arial;
+   color: black;
+   font-weight: bold;
+   letter-spacing: 12px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin-top: 142px;
+}
+
+.about h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1166px;
+}
+
+.social {
+    text-align: center; 
+}
+
+.social-icon {
+    color: rgb(6, 31, 65);
+    transition: color 0.3s;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+ion-icon {
+    font-size: 40px;
+}
+
+.social-icon:hover {
+    color: #333333
+
+}
+
+button.blogpost {
+    background-color:rgb(114, 168, 250);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(6, 31, 65);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+button.blogpost2 {
+    background-color:rgb(71, 236, 195);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(7, 78, 60);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button.blogpost3 {
+    background-color:rgb(70, 245, 99);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(5, 85, 18);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button.blogpost4 {
+    background-color:rgb(222, 240, 58);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(75, 82, 14);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button.blogpost5 {
+    background-color:rgb(230, 156, 46);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(110, 75, 23);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button.blogpost6 {
+    background-color:rgb(247, 106, 96);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(121, 45, 40);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+button.blogpost7 {
+    background-color:rgb(232, 96, 245);
+    color: rgb(6, 31, 65);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    border: 4px double rgb(73, 29, 77);
+    border-radius: 20%;
+    text-align: center;
+    cursor: grab;
+    padding: 13px;
+    position: relative;  
+    display:block;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.blogs h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.blogs hr {
+    height: 2px;
+    background-color: rgb(233, 233, 243);
+    border: 0;
+}
+
+
+.blogs p {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(6, 31, 65);
+}
+
+.square {
+    height: 565px;
+    width: 530px;
+    background-color: rgb(114, 168, 250);
+    border-style: double; 
+    border-color: rgb(6, 31, 65);
+    border-width: 5px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.works p {
+      text-align: center;
+      font-family: cursive;
+      font-size: 16;
+}
+
+.works h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.works h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+
+}
+
+.works hr {
+    height: 2px;
+    background-color: rgb(233, 233, 243);
+    border: 0;
+    
+}
+
+.squaretwo {
+    height: 510px;
+    width: 530px;
+    background-color: rgb(71, 236, 195);
+    border-style: double; 
+    border-color: rgb(7, 78, 60);
+    border-width: 5px;
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.squarethree {
+    height: 880px;
+    width: 530px;
+    background-color: rgb(58, 241, 89);
+    border-style: double; 
+    border-color: rgb(5, 85, 18);
+    border-width: 5px;
+    position: absolute;
+    top: 318%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.works h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.squarefour {
+    height: 700px;
+    width: 530px;
+    background-color: rgb(211, 230, 46);
+    border-style: double; 
+    border-color: rgb(75, 82, 14);
+    border-width: 5px;
+    position: absolute;
+    top: 463%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.works h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.squarefive {
+    height: 830px;
+    width: 530px;
+    background-color: rgb(230, 156, 46);
+    border-style: double; 
+    border-color: rgb(110, 75, 23);
+    border-width: 5px;
+    position: absolute;
+    top: 604%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.works h7 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+.portfolio h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+
+.portfolio hr {
+    height: 2px;
+    background-color: rgb(233, 233, 243);
+    border: 0;  
+}
+
+.act1 img {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(114, 168, 250);
+    border-style: double; 
+    border-color: rgb(6, 31, 65);
+    border-width: 5px;
+    padding: 4px;
+}
+
+.portfolio p { 
+font-size: 17px;
+font-weight: bold;
+font-family: cursive;
+text-align: center;
+color: rgb(6, 31, 65);
+margin-bottom: 640px;
+}
+
+.act2 img {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 233%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(71, 236, 195);
+    border-style: double; 
+    border-color: rgb(7, 78, 60);
+    border-width: 5px;
+    padding: 4px;
+}
+
+
+
+.act3 img {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 358%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(105, 224, 125);
+    border-style: double; 
+    border-color: rgb(5, 85, 18);
+    border-width: 5px;
+    padding: 4px;
+}
+
+.act4 img {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 484%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(223, 243, 45);
+    border-style: double; 
+    border-color: rgb(161, 179, 4);
+    border-width: 5px;
+    padding: 4px;
+}
+
+.act5 img {
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 619%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(230, 156, 46);
+    border-style: double; 
+    border-color: rgb(110, 75, 23);
+    border-width: 5px;
+    padding: 4px;  
+}
+
+
